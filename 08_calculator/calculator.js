@@ -23,8 +23,12 @@ const power = function(number, power) {
   return result;
 };
 
-const factorial = function() {
-	
+const factorial = function(factor) {
+  let total = 1;
+  for (let i = factor; i > 0; i--){
+    total = total * i;
+  }
+  return total;
 };
 
 // Do not edit below this line
